@@ -17,9 +17,11 @@
 		<Item Name="Query Assets.vi" Type="VI" URL="../Query Assets.vi"/>
 		<Item Name="Query Jobs.vi" Type="VI" URL="../Query Jobs.vi"/>
 		<Item Name="Query Test Results.vi" Type="VI" URL="../Query Test Results.vi"/>
+		<Item Name="Read System Metadata.vi" Type="VI" URL="../Read System Metadata.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
