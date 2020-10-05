@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,13 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Query Asset Utilization.vi" Type="VI" URL="../Query Asset Utilization.vi"/>
+			<Item Name="Query Assets.vi" Type="VI" URL="../Query Assets.vi"/>
+			<Item Name="Query Jobs.vi" Type="VI" URL="../Query Jobs.vi"/>
+			<Item Name="Query Test Results.vi" Type="VI" URL="../Query Test Results.vi"/>
+		</Item>
 		<Item Name="Asset Utilization Example.vi" Type="VI" URL="../Asset Utilization Example.vi"/>
 		<Item Name="Format Test Result Query.vi" Type="VI" URL="../Format Test Result Query.vi"/>
 		<Item Name="Parse Results.vi" Type="VI" URL="../Parse Results.vi"/>
-		<Item Name="Query Asset Utilization.vi" Type="VI" URL="../Query Asset Utilization.vi"/>
-		<Item Name="Query Assets.vi" Type="VI" URL="../Query Assets.vi"/>
-		<Item Name="Query Jobs.vi" Type="VI" URL="../Query Jobs.vi"/>
-		<Item Name="Query Test Results.vi" Type="VI" URL="../Query Test Results.vi"/>
 		<Item Name="Read System Metadata.vi" Type="VI" URL="../Read System Metadata.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
